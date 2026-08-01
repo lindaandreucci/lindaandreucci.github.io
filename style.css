@@ -245,3 +245,57 @@ footer {
         font-size: 13px;
     }
 }
+
+/* PRIVACY LINK */
+
+.privacy-link {
+    margin: 10px auto 0;
+    text-align: center;
+}
+
+.privacy-link a {
+    color: #B8B3B0;
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+
+.privacy-link a:hover {
+    color: var(--primary);
+}
+
+/* PRIVACY PAGE */
+
+.privacy-page {
+    text-align: left;
+}
+
+.privacy-page h1 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.privacy-page h2 {
+    margin: 0 0 18px;
+    font-size: 18px;
+}
+
+.privacy-page p {
+    color: var(--body-text);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 0 0 18px;
+}
+
+.privacy-page a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.privacy-back {
+    text-align: center;
+    margin-top: 40px !important;
+    font-size: 10px !important;
+}
