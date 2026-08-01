@@ -200,6 +200,7 @@ footer {
     font-size: 10px;
     font-weight: 400;
     line-height: 1.7;
+    text-align: center;
 }
 @media (min-width: 621px) {
     .footer-text {
