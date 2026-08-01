@@ -201,6 +201,12 @@ footer {
     font-weight: 400;
     line-height: 1.7;
 }
+@media (min-width: 621px) {
+    .footer-text {
+        white-space: nowrap;
+        font-size: 11px;
+    }
+}
 
 /* TABLET E DESKTOP */
 
