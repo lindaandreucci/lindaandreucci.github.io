@@ -195,7 +195,7 @@ footer {
 
 .footer-text {
     max-width: 410px;
-    margin: 18px auto 0;
+    margin: 18px auto;
     color: var(--body-text);
     font-size: 10px;
     font-weight: 400;
