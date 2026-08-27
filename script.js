@@ -1,3 +1,4 @@
+alert("JavaScript funziona!");
 document.addEventListener("DOMContentLoaded", () => {
 
     const serviceItems = document.querySelectorAll(".service-item");
