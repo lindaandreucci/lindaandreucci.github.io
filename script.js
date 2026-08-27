@@ -11,12 +11,12 @@ document.addEventListener("DOMContentLoaded", () => {
             // Chiude gli altri riquadri
             serviceItems.forEach(otherItem => {
                 if (otherItem !== item) {
-                    otherItem.classList.remove("open");
+                    otherItem.classList.remove("active");
                 }
             });
 
             // Apre/chiude quello cliccato
-            item.classList.toggle("open");
+            item.classList.toggle("active");
 
         });
 
