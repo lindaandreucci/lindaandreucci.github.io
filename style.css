@@ -435,7 +435,7 @@ footer {
 
 .service-button {
     display: grid;
-    grid-template-columns: 46px 1fr 20px;
+    grid-template-columns: 38px 1fr 20px;
     align-items: center;
     width: 100%;
     min-height: 58px;
@@ -453,13 +453,19 @@ footer {
     align-items: center;
     justify-content: flex-start;
     color: var(--primary);
-    font-size: 17px;
     line-height: 1;
+}
+
+.service-icon img {
+    display: block;
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
 }
 
 .service-title {
     color: var(--primary);
-    font-size: 11px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 1.4;
 }
@@ -477,7 +483,7 @@ footer {
 
 .service-description {
     max-height: 0;
-    padding: 0 19px 0 65px;
+    padding: 0 19px;
     overflow: hidden;
     color: var(--body-text);
     font-size: 10px;
