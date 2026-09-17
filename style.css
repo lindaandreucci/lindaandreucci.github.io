@@ -289,7 +289,7 @@ footer {
 }
 
 .privacy-page p {
-    max-width: 470px;
+    
     margin: 0 auto 18px;
     color: var(--body-text);
     font-size: 11px;
@@ -377,7 +377,6 @@ footer {
 
 .services-quote {
     margin: 22px auto 0;
-    max-width: 480px;
     color: var(--body-text);
     font-size: 10px;
     font-weight: 400;
@@ -392,14 +391,13 @@ footer {
 }
 
 .services-intro h2 {
+    font-size: clamp(12px, 5vw, 19px);
     margin-top: 0;
     margin-left: 0;
     text-align: left;
 }
 
-.services-intro p {
-    max-width: 470px;
-    margin: 16px 0 0;
+.services-intro p {    
     color: var(--body-text);
     font-size: 11px;
     font-weight: 400;
@@ -419,7 +417,6 @@ footer {
 }
 
 .phase-description {
-    max-width: 470px;
     margin: 0 0 25px;
     color: var(--body-text);
     font-size: 10px;
@@ -529,11 +526,12 @@ footer {
 .journey h2 {
     margin-top: 0;
     margin-left: 0;
+    font-size: clamp(12px, 5vw, 19px);
     text-align: left;
 }
 
 .journey p {
-    max-width: 470px;
+    
     margin: 16px 0 0;
     color: var(--body-text);
     font-size: 11px;
@@ -565,15 +563,18 @@ footer {
 /* CONTACT */
 
 .services-contact {
-    margin-top: 70px;
+    margin-top: 10px;
 }
 
 .services-contact h2 {
     margin-top: 0;
+    margin-left: 0;
+    font-size: clamp(12px, 5vw, 19px);
+    text-align: left;
 }
 
 .services-contact p {
-    max-width: 470px;
+    
     margin: 16px 0 0;
     color: var(--body-text);
     font-size: 11px;
