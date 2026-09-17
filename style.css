@@ -375,7 +375,7 @@ footer {
     opacity: 0.5;
 }
 
-services-quote {
+.services-quote {
     margin: 22px auto 0;
     color: var(--primary);
     font-size: 15px;
