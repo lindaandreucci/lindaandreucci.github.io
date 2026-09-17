@@ -96,7 +96,7 @@ h2 {
 .contact-title {
     margin: 40px 0 20px;
     color: var(--body-text);
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.18em;
 }
@@ -159,7 +159,7 @@ h2 {
 .text p {
     margin: 5px 0 0;
     color: var(--body-text);
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 400;
 }
 
@@ -421,7 +421,7 @@ services-quote {
 .phase-description {
     margin: 0 0 25px;
     color: var(--body-text);
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 400;
     line-height: 1.8;
 }
@@ -497,7 +497,7 @@ services-quote {
     padding: 0 19px;
     overflow: hidden;
     color: var(--body-text);
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 400;
     line-height: 1.7;
     opacity: 0;
@@ -534,7 +534,7 @@ services-quote {
 
 .journey p {
     
-    margin: 16px 0 0;
+    margin: 10px 0 0;
     color: var(--body-text);
     font-size: 11px;
     font-weight: 400;
@@ -542,13 +542,13 @@ services-quote {
 }
 
 .courses {
-    margin-top: 28px;
+    margin-top: 10px;
     text-align: left;
 }
 
 .courses p {
     margin: 0 0 10px;
-    font-size: 10px;
+    font-size: 11px;
     line-height: 1.7;
 }
 .courses p:not(:last-child)::after {
@@ -566,13 +566,13 @@ services-quote {
 
 .courses span {
     color: var(--primary);
-    font-size: 9px;
+    font-size: 11px;
 }
 
 /* CONTACT */
 
 .services-contact {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .services-contact h2 {
@@ -583,7 +583,6 @@ services-quote {
 }
 
 .services-contact p {
-    
     margin: 16px 0 0;
     color: var(--body-text);
     font-size: 11px;
@@ -598,7 +597,7 @@ services-quote {
     border: 1px solid var(--primary);
     border-radius: 3px;
     color: var(--primary);
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 600;
     text-decoration: none;
 }
