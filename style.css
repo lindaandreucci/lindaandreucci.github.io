@@ -545,13 +545,20 @@ footer {
 }
 
 .courses p {
-    margin: 0 0 20px;
+    margin: 0 0 10px;
     font-size: 10px;
     line-height: 1.7;
 }
-
+.courses p:not(:last-child)::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 1px;
+    margin-top: 10px;
+    background: var(--primary);
+}
 .courses em {
-    color: var(--primary);
+    color: var(--body-text);
     font-weight: 600;
 }
 
@@ -563,7 +570,7 @@ footer {
 /* CONTACT */
 
 .services-contact {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .services-contact h2 {
