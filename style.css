@@ -331,11 +331,19 @@ footer {
     text-align: left;
 }
 
-/* BACK */
+/* TOP */
+
+.services-top {
+    position: relative;
+    min-height: 32px;
+    margin-bottom: 28px;
+}
 
 .services-back {
-    display: block;
-    margin-bottom: 28px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
     color: var(--primary);
     font-size: 32px;
     font-weight: 300;
@@ -343,14 +351,18 @@ footer {
     text-decoration: none;
 }
 
-.services-back:hover {
-    opacity: 0.7;
+.leaf-head {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    object-fit: contain;
 }
 
 /* HEADER */
 
 .services-header {
-    margin-bottom: 42px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -376,7 +388,7 @@ footer {
 /* INTRO */
 
 .services-intro {
-    margin-bottom: 52px;
+    margin-bottom: 30px;
 }
 
 .services-intro h2 {
@@ -397,13 +409,13 @@ footer {
 /* PHASE */
 
 .service-phase {
-    margin-bottom: 58px;
+    margin-bottom: 30px;
 }
 
 .service-phase h2 {
     margin: 0 0 12px;
-    font-size: clamp(19px, 5vw, 25px);
-    font-weight: 600;
+    font-size: clamp(12px, 5vw, 19px);
+    font-weight: 500;
 }
 
 .phase-description {
@@ -511,11 +523,13 @@ footer {
 /* JOURNEY */
 
 .journey {
-    margin-top: 70px;
+    margin-top: 0px;
 }
 
 .journey h2 {
     margin-top: 0;
+    margin-left: 0;
+    text-align: left;
 }
 
 .journey p {
